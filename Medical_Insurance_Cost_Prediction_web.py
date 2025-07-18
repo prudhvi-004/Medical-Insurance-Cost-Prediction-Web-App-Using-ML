@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-with open('C:/Users/prudh/OneDrive/Desktop/Machine Learning/Projects/Medical Insurance Cost Prediction/insurance_model.pkl', 'rb') as f:
+with open('insurance_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="Medical Insurance Cost Predictor")
